@@ -10,7 +10,7 @@ const Main = () => {
         src="https://i.hizliresim.com/t8ygr6t.jfif"
         alt="/"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/25">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             Serhat Pehlivan

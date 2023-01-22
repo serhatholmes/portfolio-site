@@ -10,6 +10,8 @@ const ProjectItem = ({ img, title }) => {
         </h3>
         <p className="pb-4 pt-2 text-white text-center">C#</p>
         <a href="/">
+          {" "}
+          {/* github link */}
           <p className="text-center p-3 rounded-lg bg-green-600 text-white font-bold cursor-pointer text-lg">
             More Info
           </p>
