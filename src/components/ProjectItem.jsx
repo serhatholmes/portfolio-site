@@ -8,8 +8,8 @@ const ProjectItem = ({ img, title }) => {
         <h3 className="text-white font-bold text-2xl tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">C#</p>
-        <a href="/">
+        <p className="pb-4 pt-2 text-white text-center">ReactJS</p>
+        <a href="https://github.com/serhatholmes?tab=repositories">
           {" "}
           {/* github link */}
           <p className="text-center p-3 rounded-lg bg-green-600 text-white font-bold cursor-pointer text-lg">

@@ -1,13 +1,20 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaGithub,
+  FaLinkedinIn,
+  FaMailBulk,
+} from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import background from "../assets/backgroundpic.jpg";
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="https://i.hizliresim.com/t8ygr6t.jfif"
+        src={background}
         alt="/"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/25">
@@ -21,7 +28,7 @@ const Main = () => {
               sequence={[
                 "Software Engineer.", // Types 'One'
                 2000, // Waits 1s
-                "Coder.", // Deletes 'One' and types 'Two'
+                "Frontend Developer.", // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
                 "Gamer.",
               ]}
@@ -32,14 +39,14 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://www.instagram.com/serhatholmes/?hl=tr">
-              <FaInstagram className="cursor-pointer" size={20} />
-            </a>
             <a href="https://www.linkedin.com/in/serhat-pehlivan/">
               <FaLinkedinIn className="cursor-pointer" size={20} />
             </a>
             <a href="https://github.com/serhatholmes">
               <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a href="mailto:serhat9703@hotmail.com">
+              <AiOutlineMail className="cursor-pointer" size={20} />
             </a>
           </div>
         </div>

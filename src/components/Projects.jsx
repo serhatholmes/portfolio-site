@@ -39,10 +39,10 @@ const Projects = () => {
         Maecenas fringilla ornare diam, a dapibus metus tristique ut.{" "}
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={projects[0].image} title={projects[0].title} />
-        <ProjectItem img={project2} title="Project Lake RPG Game" />
-        <ProjectItem img={project3} title="Multiplayer FPS Game" />
-        <ProjectItem img={project13} title="Car Simulator Game" />
+        <ProjectItem img={project1} title="E-commerce site app" />
+        <ProjectItem img={project2} title="Filtering/Searching-data app" />
+        <ProjectItem img={project3} title="Invoice List app" />
+        <ProjectItem img={project13} title="Pokemon Data Fetching app" />
       </div>
     </div>
   );
