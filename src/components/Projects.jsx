@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import project1 from "../assets/Screenshot_1.png";
-import project2 from "../assets/Screenshot_2.png";
-import project3 from "../assets/Screenshot_3.png";
-import project13 from "../assets/Screenshot_13.png";
+import project1 from "../assets/ecommerce2.png";
+import project2 from "../assets/snapshotapp1.png";
+import project3 from "../assets/invoiceapp1.png";
+import project4 from "../assets/pokemon1.png";
 
 const projects = [
   {
@@ -32,17 +32,20 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra
-        sollicitudin arcu id placerat. Nullam eu tortor non elit fringilla
-        vulputate. Phasellus erat massa, malesuada euismod ipsum vitae, mollis
-        egestas magna. In luctus pretium nulla, a sagittis erat pretium id.
-        Maecenas fringilla ornare diam, a dapibus metus tristique ut.{" "}
+        After graduation, I worked in the game field for a while and then
+        changed my field to frontend. With the help of resources I found on the
+        internet, I have been learning HTML, CSS, Tailwindcss, JavaScript, and
+        React JS for some time now. I have started developing projects that I
+        think will be necessary in this field and I am currently continuing to
+        develop them. In the later stages of my career, I will also acquire
+        knowledge in the backend field and progress towards becoming a Full
+        Stack Developer.{" "}
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={project1} title="E-commerce site app" />
         <ProjectItem img={project2} title="Filtering/Searching-data app" />
         <ProjectItem img={project3} title="Invoice List app" />
-        <ProjectItem img={project13} title="Pokemon Data Fetching app" />
+        <ProjectItem img={project4} title="Pokemon Data Fetching app" />
       </div>
     </div>
   );

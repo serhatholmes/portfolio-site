@@ -6,6 +6,10 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-green-800">
         Contact
       </h1>
+      <p>
+        If you have anything you want to ask or are curious about, you can
+        contact me via LinkedIn, E-mail or here.
+      </p>
       <form
         action="https://getform.io/f/b278c4ea-8000-41df-9bef-d87b482af8b7"
         method="POST"
